@@ -20,7 +20,7 @@ class credit extends StatelessWidget {
             //color: Colors.amber,
             width: 300,
             padding: EdgeInsets.fromLTRB(50, 130, 0, 0),
-            child: Text(
+            child: Text(// nombre
               Usuario.nom,
               style: TextStyle(
                   fontFamily: 'roboto', color: Colors.white, fontSize: 12),
@@ -30,7 +30,7 @@ class credit extends StatelessWidget {
             //color: Colors.orange,
             width: 300,
             padding: EdgeInsets.fromLTRB(50, 165, 0, 0),
-            child: Text(
+            child: Text(// tarjeta
               Usuario.istarjeta,
               style: TextStyle(
                   fontFamily: 'roboto', color: Colors.white, fontSize: 15),
@@ -40,7 +40,7 @@ class credit extends StatelessWidget {
             //color: Colors.orange,
             width: 300,
             padding: EdgeInsets.fromLTRB(50, 235, 0, 0),
-            child: Text(
+            child: Text(// caduca
               'CADUCA FINAL: ${Usuario.caducidad}',
               style: TextStyle(
                   fontFamily: 'roboto', color: Colors.white, fontSize: 11),
@@ -50,7 +50,7 @@ class credit extends StatelessWidget {
             //color: Colors.orange,
             width: 350,
             padding: EdgeInsets.fromLTRB(240, 235, 0, 0),
-            child: Text(
+            child: Text(// cvv
               'CVV ${Usuario.CVV}',
               style: TextStyle(
                   fontFamily: 'roboto', color: Colors.white, fontSize: 11),
